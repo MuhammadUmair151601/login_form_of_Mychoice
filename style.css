@@ -51,7 +51,7 @@ body{
 }
 input{
     display: flex;
-   border: transparent;
+   border: none;
    color: white;
    background-color: rgb(173, 125, 173);
    border-radius: 20px;
@@ -64,8 +64,8 @@ input{
    
 
 }
-h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+p{
+    font-family: 'Segoe UI';
     font-weight: 10px;
     font-size: 15px;
     display: inline;
@@ -77,7 +77,16 @@ h1{
     margin-right: 30px;
 
 }
-:hover .btn,h1,.buton{
+.buton:hover{
+    cursor: pointer;
+    background-color: rgb(102, 7, 102);
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(102, 7, 102);
+}
+p:hover {
     text-decoration: underline;
     cursor: pointer;
 }
